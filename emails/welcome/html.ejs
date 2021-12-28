@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+    <!-- CSS (load bootstrap from a CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding-top:10px; }
+        p {font-size: small;}
+        #main-body{
+            padding-left: '20px';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>Hi <%- name %>,</p>
+
+        <p id="main-body">Thanks for signing up.<br/>We are very happy to welcome you to our family.</p>
+
+        <p>best,<br/><%- name %></p>
+    </main>
+</body>
+</html>
